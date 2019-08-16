@@ -25,6 +25,10 @@
 /* Begin PBXFileReference section */
 		51DFE34122FD5AFF00B0CEBC /* virtual */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = virtual; sourceTree = BUILT_PRODUCTS_DIR; };
 		51DFE34422FD5AFF00B0CEBC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		51DFE34B22FD619100B0CEBC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		51DFE34C22FD61B200B0CEBC /* Student.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		51DFE34D22FD61CA00B0CEBC /* Teacher.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		51DFE34E22FD61F000B0CEBC /* Graduate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graduate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,10 @@
 			isa = PBXGroup;
 			children = (
 				51DFE34422FD5AFF00B0CEBC /* main.cpp */,
+				51DFE34B22FD619100B0CEBC /* Person.h */,
+				51DFE34C22FD61B200B0CEBC /* Student.h */,
+				51DFE34D22FD61CA00B0CEBC /* Teacher.h */,
+				51DFE34E22FD61F000B0CEBC /* Graduate.h */,
 			);
 			path = virtual;
 			sourceTree = "<group>";

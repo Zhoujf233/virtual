@@ -7,9 +7,15 @@
 //
 
 #include <iostream>
+#include "Person.h"
+#include "Student.h"
+#include "Teacher.h"
+#include "Graduate.h"
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main(int argc, const char * argv[])
+{
+    Graduate grad1("Wang-li",'f',24,"assistant",89.5,1234.5);
+    grad1.show();
     return 0;
 }
